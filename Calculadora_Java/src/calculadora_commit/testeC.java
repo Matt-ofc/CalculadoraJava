@@ -8,7 +8,7 @@ public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
 int opcao;
 double num1, num2, resultado;
-	    
+	    do{
 	            System.out.println("=== Calculadora ===");
 	            System.out.println("1 - Soma");
 	            System.out.println("2 - Subtração");
