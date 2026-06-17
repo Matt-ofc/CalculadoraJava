@@ -3,13 +3,12 @@ import java.util.Scanner;
 
 public class testeC {
 
-	public class Calculadora {
-	    public static void main(String[] args) {
-	        Scanner scanner = new Scanner(System.in);
-	        int opcao;
-	        double num1, num2, resultado;
-
-	        do {
+public class Calculadora {
+public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+int opcao;
+double num1, num2, resultado;
+	    
 	            System.out.println("=== Calculadora ===");
 	            System.out.println("1 - Soma");
 	            System.out.println("2 - Subtração");
